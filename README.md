@@ -14,6 +14,8 @@ _Figure 2: Forman Ricci Curvature values with weights_
 
 # Forman Ricci curvature value calculation explained
 
+This youtube video: [Areejit Samal (7/25/22): Forman-Ricci curvature: A geometry-inspired measure with wide applications](https://www.youtube.com/watch?v=KNdlXb53FbE) was very helpful to the completion of this mini project.
+
 For weighted directed graphs such as the graph in the image, the formula used to compute the Forman Ricci Curvature values were from the paper: [Discrete Ricci curvatures for directed networks](https://doi.org/10.1016/j.chaos.2018.11.031). For bidirectional edges, the following formula was used:
 
 $F(e) = w_e\left(\frac{w_{v_1}}{w_e}-\left(\sum_{e_{v_1}\sim e}\frac{w_{v_1}}{\sqrt{w_ew_{e_{v_1}}}}\right)\right) + w_e\left(\frac{w_{v_2}}{w_e}-\left(\sum_{e_{v_2}\sim e}\frac{w_{v_2}}{\sqrt{w_ew_{e_{v_2}}}}\right)\right)$
